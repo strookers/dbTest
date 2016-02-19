@@ -1,0 +1,15 @@
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\Client.exe.config
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\Client.exe
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\Client.pdb
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\BLL.dll
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\Core.dll
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\DAL.dll
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\BLL.pdb
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\Core.pdb
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\bin\Debug\DAL.pdb
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\obj\Debug\Client.Form1.resources
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\obj\Debug\Client.Properties.Resources.resources
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\obj\Debug\Client.exe
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\Client\obj\Debug\Client.pdb

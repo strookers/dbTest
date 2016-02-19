@@ -1,0 +1,7 @@
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\DAL\bin\Debug\DAL.dll
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\DAL\bin\Debug\DAL.pdb
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\DAL\bin\Debug\Core.dll
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\DAL\bin\Debug\Core.pdb
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\DAL\obj\Debug\DAL.dll
+c:\users\micha\documents\visual studio 2015\Projects\AdoTest\DAL\obj\Debug\DAL.pdb
