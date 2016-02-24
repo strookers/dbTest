@@ -39,7 +39,9 @@
             this.lblPremiere = new System.Windows.Forms.Label();
             this.lblDescription = new System.Windows.Forms.Label();
             this.btnCreateMovie = new System.Windows.Forms.Button();
+            this.dgv = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -47,7 +49,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(465, 52);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(657, 493);
+            this.dataGridView1.Size = new System.Drawing.Size(657, 218);
             this.dataGridView1.TabIndex = 0;
             // 
             // btnGetMovies
@@ -136,11 +138,20 @@
             this.btnCreateMovie.UseVisualStyleBackColor = true;
             this.btnCreateMovie.Click += new System.EventHandler(this.btnCreateMovie_Click);
             // 
+            // dgv
+            // 
+            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv.Location = new System.Drawing.Point(465, 277);
+            this.dgv.Name = "dgv";
+            this.dgv.Size = new System.Drawing.Size(657, 268);
+            this.dgv.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1134, 557);
+            this.Controls.Add(this.dgv);
             this.Controls.Add(this.btnCreateMovie);
             this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.lblPremiere);
@@ -156,6 +167,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,6 +186,7 @@
         private System.Windows.Forms.Label lblPremiere;
         private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.Button btnCreateMovie;
+        private System.Windows.Forms.DataGridView dgv;
     }
 }
 

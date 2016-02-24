@@ -44,6 +44,21 @@ namespace DAL
 
         }
 
+        public static DataSet GetMovieSet()
+        {
+            DataSet movieSet = new DataSet();
+
+            string sql = "select * from Movie";
+            dbCmd = DBConnection.GetDbCommand(sql);
+            SqlDataAdapter da = new SqlDataAdapter();
+            da.SelectCommand = dbCmd;
+            da.Fill(movieSet, "Movie");
+
+            DBConnection.Close();
+            return movieSet;
+
+        }
+
         public static void CreateMovie(string title, string description, DateTime premiere)
         {
             //string sql = @"insert into Movie (title, description, premiere) values (" + title + ",'" + description + "','" + premiere + "')";

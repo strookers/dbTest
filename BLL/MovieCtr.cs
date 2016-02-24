@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,11 @@ namespace BLL
         public List<Movie> GetMovieList()
         {
             return DBMovie.GetMovieList();
+        }
+
+        public DataSet GetMovieSet()
+        {
+            return DBMovie.GetMovieSet();
         }
 
         public Movie FindMovieById(int id)

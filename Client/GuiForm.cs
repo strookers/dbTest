@@ -20,11 +20,13 @@ namespace Client
         {
             InitializeComponent();
             updTable();
+            updDataSetTable();
         }
 
         private void btnGetMovies_Click(object sender, EventArgs e)
         {
             updTable();
+            updDataSetTable();
         }
 
         private void btnIdSearch_Click(object sender, EventArgs e)
@@ -61,6 +63,20 @@ namespace Client
             dataGridView1.Columns[3].HeaderText = "Præmiere dato";
 
             dataGridView1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+        }
+
+        private void updDataSetTable()
+        {
+            DataSet mSet = mCtr.GetMovieSet();
+            dgv.DataSource = mSet;
+            dgv.DataMember = "Movie";
+
+            dgv.Columns[0].HeaderText = "Id";
+            dgv.Columns[1].HeaderText = "Titel";
+            dgv.Columns[2].HeaderText = "Beskrivelse";
+            dgv.Columns[3].HeaderText = "Præmiere dato";
+
+            dgv.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
         }
 
         private void Form1_Load(object sender, EventArgs e)
